@@ -37,6 +37,7 @@
           @click:append="generateImg"
           loading
           solo
+          @keyup.enter="generateImg"
 
       >
         <template v-slot:progress>
